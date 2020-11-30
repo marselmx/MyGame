@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bef6358836561624082203562f4d90de, type: 3}
+  m_Name: test2
+  m_EditorClassIdentifier: 
+  text: WTF?
+  levelsSize:
+    _Buckets: ffffffffffffffffffffffff
+    _HashCodes: 000000000000000000000000
+    _Next: 000000000000000000000000
+    _Count: 0
+    _Version: 0
+    _FreeList: -1
+    _FreeCount: 0
+    _Keys: 000000000000000000000000
+    _Values: 000000000000000000000000
+  gameEvents:
+    jsons:
+    - ClassName: AGameEvent
+      ClassData: '{"text":"Hello","count":777,"str_list":["First","Second","Trist","Affff"],"arr":["str1","str2","str3"]}'
+    - ClassName: BGameEvent
+      ClassData: '{"text":"Bay","state":false,"type":1,"position":{"x":100.0,"y":100.0}}'
+    - ClassName: AGameEvent
+      ClassData: '{"text":"Lorder","count":55,"str_list":["str1","str2"],"arr":["str1","str2","str3"]}'
